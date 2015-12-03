@@ -11,4 +11,8 @@ RUN echo "" > /var/www/html/index.html
 RUN git clone https://github.com/letsencrypt/letsencrypt
 RUN /data/letsencrypt/letsencrypt-auto --help
 
+RUN apache2ctl -D BACKGROUND
+
+EXPOSE 80 443
+
 CMD ["apache2ctl", "-D", "FOREGROUND"]
