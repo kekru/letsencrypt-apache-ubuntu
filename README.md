@@ -1,4 +1,4 @@
-﻿### apache2 webserver with Let's Encrypt on Ubuntu
+### apache2 webserver with Let's Encrypt on Ubuntu
 
 [Let's Encrypt](https://github.com/letsencrypt/letsencrypt) is a service generating HTTPS certificates for you and installing them in your apache2 webserver.
 
